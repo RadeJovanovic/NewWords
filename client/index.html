@@ -8,7 +8,8 @@
         <!--This is where we put the stuff that we see in the file-->
         <h1>Learn New Words</h1>
         <div>
-            <input ng-model="newWord"></input>
+            <input ng-model="newWord">
+            <button ng-click="saveThisWord()">Save</button>
         </div>
         <script src="node_modules/angular/angular.js"></script> <!--Our file is now going to be loaded after angular is loaded, so we can use everything that angular provides-->
         <script src="index.js"></script> <!--lways put this into the body because it will load after the page and then the script, so your user will not have to look at a blank page, and also javascript may try to reference a node that has not been made yet, eg if you use an <input></input> and then reference the input and then your script will not know which input is being referenced -->

@@ -10,6 +10,8 @@
   "author": "Rad",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4" //RadNote: This is now a needed dependency because we used the --save when doing the npm install express --save
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "nedb": "^1.8.0"
   }
 }
