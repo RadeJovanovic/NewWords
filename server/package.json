@@ -1,0 +1,15 @@
+{
+  "name": "new-words-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4" //RadNote: This is now a needed dependency because we used the --save when doing the npm install express --save
+  }
+}
